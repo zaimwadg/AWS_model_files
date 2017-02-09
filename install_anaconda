@@ -12,4 +12,5 @@ expect ">>>"
 send "yes\n"
 expect ">>>"
 send "\n"
-
+expect ">>>"
+send "yes\n"

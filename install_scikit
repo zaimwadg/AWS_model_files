@@ -1,0 +1,10 @@
+#/usr/bin/expect
+
+set timeout 600
+
+spawn conda install scikit-learn
+
+expect "?"
+send "y\n"
+
+

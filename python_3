@@ -6,4 +6,4 @@ spawn conda create -n py3k python=3 anaconda
 
 expect "?"
 send "y\n"
-
+interact

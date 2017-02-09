@@ -1,10 +1,6 @@
 #!/bin/bash
 
 
-mv -v /home/ubuntu/AWS_model_files/* /home/ubuntu
-
-rm -rf /home/ubuntu/AWS_model_files
-
 wget https://repo.continuum.io/archive/Anaconda2-4.1.1-Linux-x86_64.sh
 
 expect install_anaconda
@@ -20,3 +16,5 @@ echo -e "c = get_config()\nc.IPKernelApp.pylab = 'inline'\nc.NotebookApp.ip = '*
 cd ..
 
 expect python_3
+
+expect install_scikit

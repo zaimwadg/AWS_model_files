@@ -1,6 +1,5 @@
 #/usr/bin/expect
 
-<<<<<<< HEAD
 set timeout 600
 
 =======

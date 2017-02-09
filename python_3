@@ -1,6 +1,5 @@
 #/usr/bin/expect
 
-<<<<<<< HEAD
 set timeout 600
 
 spawn conda create -n py3k python=3 anaconda

@@ -6,10 +6,4 @@ spawn conda create -n py3k python=3 anaconda
 
 expect "Proceed"
 send "y\n"
-=======
-spawn conda create -n py3k python=3 anaconda
 
-expect "Proceed"
-send "y\n"
-interact
->>>>>>> 2984963294173c2ad17833f5c5c8dcfc49ea84ca

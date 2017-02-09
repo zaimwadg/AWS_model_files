@@ -1,0 +1,7 @@
+#/usr/bin/expect
+
+spawn conda create -n py3k python=3 anaconda
+
+expect "Proceed"
+send "y\n"
+interact

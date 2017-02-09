@@ -1,0 +1,15 @@
+#/usr/bin/expect
+
+spawn bash Anaconda2-4.1.1-Linux-x86_64.sh
+
+expect ">>>"
+send "\n"
+expect "THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\""
+send \x03
+expect ">>>"
+send "yes\n"
+expect ">>>"
+send "\n"
+expect "\[no\] >>>"
+send "yes\n"
+interact

@@ -1,10 +1,17 @@
 #/usr/bin/expect
 
+<<<<<<< HEAD
 set timeout 600
 
+=======
+>>>>>>> 2984963294173c2ad17833f5c5c8dcfc49ea84ca
 spawn conda install scikit-learn
 
 expect "?"
 send "y\n"
+<<<<<<< HEAD
 
+=======
+interact
+>>>>>>> 2984963294173c2ad17833f5c5c8dcfc49ea84ca
 

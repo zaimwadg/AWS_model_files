@@ -1,7 +1,10 @@
 #/usr/bin/expect
 
+<<<<<<< HEAD
 set timeout 600
 
+=======
+>>>>>>> 2984963294173c2ad17833f5c5c8dcfc49ea84ca
 spawn bash Anaconda2-4.1.1-Linux-x86_64.sh
 
 expect ">>>"
@@ -12,5 +15,11 @@ expect ">>>"
 send "yes\n"
 expect ">>>"
 send "\n"
+<<<<<<< HEAD
 expect ">>>"
 send "yes\n"
+=======
+expect "\[no\] >>>"
+send "yes\n"
+interact
+>>>>>>> 2984963294173c2ad17833f5c5c8dcfc49ea84ca

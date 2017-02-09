@@ -6,5 +6,5 @@ spawn conda install scikit-learn
 
 expect "?"
 send "y\n"
-
+interact
 

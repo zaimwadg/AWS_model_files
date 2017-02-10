@@ -8,7 +8,7 @@ It would require some adjustments regarding the model the users want to use and 
 For example, it is possible to use github to get all the results and compare them to get directly the model with the best parameters.
 
 Be aware that you need at least to install the following packages :
-  numpy
-  boto3
+  numpy,
+  boto3,
   pexpect
   

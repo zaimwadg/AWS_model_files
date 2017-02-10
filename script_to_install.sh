@@ -15,6 +15,6 @@ echo -e "c = get_config()\nc.IPKernelApp.pylab = 'inline'\nc.NotebookApp.ip = '*
 
 cd ..
 
-expect python_3
-
 expect install_scikit
+
+expect python_3
